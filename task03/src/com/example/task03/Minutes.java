@@ -1,34 +1,27 @@
 package com.example.task03;
 
-public class Minutes implements TimeUnit
-{
-    private final long amount;
+public class Minutes implements TimeUnit {
 
-    public Minutes(long amount)
-    {
-        this.amount = amount;
+    public Minutes(long amount) {
+        // TODO: реализовать
+        throw new UnsupportedOperationException();
     }
 
     @Override
-    public long toMillis()
-    {
-        return amount * 60000;
+    public long toMillis() {
+        // TODO: реализовать
+        throw new UnsupportedOperationException();
     }
 
     @Override
-    public long toSeconds()
-    {
-        return amount * 60;
+    public long toSeconds() {
+        // TODO: реализовать
+        throw new UnsupportedOperationException();
     }
 
     @Override
-    public long toMinutes()
-    {
-        return amount;
-    }
-
-    public long getHours()
-    {
-        return (amount + 30) / 60;
+    public long toMinutes() {
+        // TODO: реализовать
+        throw new UnsupportedOperationException();
     }
 }
