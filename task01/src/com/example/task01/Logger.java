@@ -21,7 +21,10 @@ public class Logger
     {
         this.level = level;
     }
-
+    public Level getLevel()
+    {
+        return level;
+    }
     private Logger(String name)
     {
         this.name = name;
